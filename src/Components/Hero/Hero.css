@@ -1,0 +1,116 @@
+ .hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 40px;
+  position: relative;
+  bottom:1px;
+  background-color:#000;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero-content h5 {
+  font-size: 1.1rem;
+  color: orange;
+  margin-bottom: 30px;
+  line-height: 1.4;
+}
+
+.search-bar {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 5px 8px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 10px 25px;
+  font-size: 1rem;
+  background-color: orange;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: orange;
+}
+
+.stats {
+  display: flex;
+  gap: 40px;
+}
+
+.stats div {
+  text-align: center;
+}
+
+.stats h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  color:  #00bcd4;
+}
+
+.stats h5 {
+  font-size: 1rem;
+  color:orange;
+}
+
+.hero-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image {
+  max-width: 50%;
+  height: auto;
+  border-radius: 50px;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+} 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

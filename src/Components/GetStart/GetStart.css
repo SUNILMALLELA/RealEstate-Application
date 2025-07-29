@@ -1,0 +1,30 @@
+.get-start-container {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 210px;
+}
+.get-start-container h1{
+color: orange;
+}
+.get-start-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color:#00bcd4;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.get-start-button:hover {
+  background-color:orangered;
+}

@@ -1,0 +1,123 @@
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  max-width: 1410px;
+  margin: 0 auto;
+  gap: 20px;
+  position: relative;
+  top: 200px;
+  background-color: black;
+}
+.contact-details {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+  left:25px;
+}
+
+.contact-image {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-image img {
+  max-width: 70%;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+  top: 152px;
+}
+
+.contact-details h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: orange;
+  position: relative;
+  left:25px;
+}
+
+.contact-details h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #00bcd4;
+  position: relative;
+  left: 25px;
+}
+
+.contact-details p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: aliceblue;
+  position: relative;
+  left: 25px;
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.contact-card {
+  flex: 1 1 calc(40% - 20px);
+  background-color: black;
+  border: 10px solid #ddd;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.contact-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.contact-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: orange;
+}
+
+.contact-card h3 {
+  font-size: 18px;
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.contact-card button {
+  padding: 10px 20px;
+  background-color: #00bcd4;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-card button:hover {
+  background-color:orangered;
+}
+
+/* Responsive layout for mobile */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-grid {
+    flex-direction: column;
+  }
+
+  .contact-card {
+    flex: 1 1 100%;
+  }
+}
