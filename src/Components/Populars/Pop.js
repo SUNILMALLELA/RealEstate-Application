@@ -12,7 +12,7 @@ const Images = [
     image: '/Popular/P2.png',
     title: 'Luxury Forest Villa',
    address: 'Wayanad Forest Reserve, Vythiri, Serene Highlands, Kerala',
-    priceSold: 14200000,
+    priceSold: 15200000,
     status: 'Sold'
   },
   {
