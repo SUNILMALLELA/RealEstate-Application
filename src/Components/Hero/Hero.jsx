@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import Counter from './Counter'; 
-export const Hero = () => {
+ const Hero = () => {
   return (
     <div className="hero-container">
       <div className="hero-content">
@@ -42,3 +42,4 @@ export const Hero = () => {
     </div>
   );
 };
+export default Hero;
