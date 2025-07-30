@@ -8,7 +8,7 @@
   flex-wrap: nowrap;       
   overflow-x: auto;   
   position: absolute;
-  bottom: 220px;  
+  top: 320px;  
   left: 18px;   
 }
 .brand-card {
